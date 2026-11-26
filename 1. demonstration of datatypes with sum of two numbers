@@ -47,4 +47,4 @@ a_str = "Hello "
 b_str = "World"
 sum_str = a_str + b_str
 print("String concatenation:", sum_str)
-print("Type:", type(sum_str))
+print("Type:", type(sum_str))
