@@ -12,7 +12,10 @@ lights = int(input("Enter the number of lights: "))
 washing_machines = int(input("Enter the number of washing machines: "))
 computers = int(input("Enter the number of computers: "))
 # Calculate total daily consumption for each appliance
-total_daily_consumption =(fans*FAN_CONSUMPTION+lights * LIGHT_CONSUMPTION +washing_machines * WASHING_MACHINE_CONSUMPTION +computers * COMPUTER_CONSUMPTION)
+total_daily_consumption =(fans*FAN_CONSUMPTION+
+lights * LIGHT_CONSUMPTION +
+washing_machines * WASHING_MACHINE_CONSUMPTION +
+computers * COMPUTER_CONSUMPTION)
 # Calculate total consumption for 2 months
 total_consumption = total_daily_consumption * DAYS_IN_MONTH * MONTHS
 # Calculate total electricity bill
