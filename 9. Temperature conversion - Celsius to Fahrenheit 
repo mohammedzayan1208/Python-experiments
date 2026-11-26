@@ -1,0 +1,35 @@
+Using Direct equation:
+c = float(input("Enter temperature in Celsius: "))
+f = (c * 9/5) + 32
+print("Temperature in Fahrenheit:", f)
+Using if else statement:
+# Program to convert temperature between Celsius and Fahrenheit
+# Read temperature value from user
+temp = float(input("Enter the temperature value: "))
+# Read conversion choice
+print("Choose conversion type:")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+choice = int(input("Enter your choice (1 or 2): "))
+# Perform conversion based on choice
+if choice == 1:
+# Celsius to Fahrenheit
+fahrenheit = (temp * 9/5) + 32
+print("Temperature in Fahrenheit:", fahrenheit, "°F")
+elif choice == 2:
+# Fahrenheit to Celsius
+celsius = (temp - 32) * 5/9
+print("Temperature in Celsius:", celsius, "°C")
+else:
+print("Invalid choice! Please enter 1 or 2.")
+OR
+temp = float(input("Enter temperature: "))
+choice = input("Convert to (C/F): ")
+if choice == 'F' or choice == 'f':
+result = (temp * 9/5) + 32
+print("Temperature in Fahrenheit:", result)
+elif choice == 'C' or choice == 'c':
+result = (temp - 32) * 5/9
+print("Temperature in Celsius:", result)
+else:
+print("Invalid choice!")
